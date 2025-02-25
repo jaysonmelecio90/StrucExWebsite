@@ -1,13 +1,12 @@
 *{
-    margin: 0;
     padding: 0;
+    margin: 0;
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
     scroll-behavior: smooth;
     font-family: 'Lato', sans-serif;
 }
-
 /* Navbar Start */
 #navbar{
     background: #6e6d6d;
@@ -47,8 +46,13 @@
 }
 /* Navbar End */
 
+body
+{
+    padding-top: 70px;
+}
 /* Home Section Start */
 .home{
+    padding-top: 100px;
     width: 100%;
     height: 100vh;
     background-image: linear-gradient(rgba(0,0,0,0.3),rgba(129, 124, 124, 0.2)), url(./images/background\ img.png);
@@ -127,10 +131,10 @@
 }
 /* Home Section End */
 
-/* Section Book Start */
-.book{
+/* Section qoute Start */
+.qoute{
     background: #f9f9f9;
-    padding: 50px;
+    padding-top: 100px;
 }
 .main-text h1{
     text-align: center;
@@ -138,16 +142,16 @@
     font-weight: 600;
 }
 .main-text h1 span{
-    color: #ffa500;
+    color: #037244;
 }
 .book .card{
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px black;
 }
-.book .row{
+.qoute .row{
     margin-top: 30px;
 }
-.book form input{
+.qoute form input{
     padding: 10px;
     color: black;
     border: none;
@@ -156,40 +160,46 @@
     border-radius: 10px;
     box-shadow: 0px 5px 5px -6px black;
 }
-.book form textarea{
+.qoute form textarea{
     border: none;
     border-radius: 10px;
     resize: none;
     box-shadow: 0px 5px 5px -6px black;
     height: 200px;
 }
-.book .submit{
+.qoute .submit{
     width: 160px;
     font-size: 16px;
     font-weight: 550;
-    background: #ffa500;
+    background: #037244;
     color: white;
     margin-top: 10px;
     transition: 0.5s;
 }
-.book .submit:hover{
+.qoute .submit:hover{
     width: 170px;
 }
 @media (max-width:765px){
-    .book{
+    .qoute{
         padding: 0;
     }
     .main-text h1{
         padding: 20px;
     }
 }
-/* Section Book End */
+/* Section qoute End */
 
 
 
 
 
 /* Section Packages Start */
+
+.packages{
+    padding-top: 70px;
+}
+
+
 .main-txt h1{
     text-align: center;
     margin-top: 30px;
@@ -236,9 +246,6 @@
 
 }
 
-
-
-
 /* Section Packages End */
 
 
@@ -274,6 +281,7 @@
 
 /* Section Gallary Start */
 .gallary{
+    padding-top: 100px;
     margin-top: 50px;
 }
 .gallary .card{
