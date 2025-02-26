@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Beam Program</title>
+
+    <link rel="stylesheet" href="/assets/style.css">
+
+    <!-- Bootstrap Link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- Bootstrap Link -->
+
+    <!-- Font Awesome Cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <!-- Font Awesome Cdn -->
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- Google Fonts -->
+
+</head>
+
+<body>
+    
+    <!-- Navbar Start -->
+      <nav class="navbar fixed-top navbar-expand-lg" id="navbar" style="background-color: #636e72;">
+        <div class="container">
+          <a class="navbar-brand" href="../index.html" id="logo"><span>Struc</span>Ex  Beam Program </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+            <span><i class="fa-solid fa-bars"></i></span>
+          </button>
+          <div class="collapse navbar-collapse left" id="mynavbar">
+            <ul class="navbar-nav me-auto">
+              <li class="nav-item">
+                <a class="nav-link active" href="BeamTutorial.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#video">Videos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#report">Reports</a>
+              </li>
+
+              <li class="nav-item">
+                <a class="nav-link" href="#about">About</a>
+              </li>        
+            </ul>
+            
+
+
+          </div>
+        </div>
+      </nav>
+    <!-- Navbar End -->
+
+    <!-- Home Section Start -->
+    <div class="HomeTutorial">
+
+        <div class="container">
+            
+            <div class="main-text">
+              <h1><span>T</span>utorial Video</h1>
+            </div>
+            
+            <div class="row">
+    
+              <div class="col-md-8 py-3 py-md-0">
+                <div class="card">
+                    <iframe class="youtubePlayer"
+                        id="youtubePlayer"
+                        src="https://www.youtube.com/embed/q1TowzIEYg0?si=GGhn-jzoBavXxgX6" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+      
+                </div>
+              </div>
+    
+              <div class="col-md-4 py-3 py-md-0">
+                <div class="col-md-4">
+                    <div class="dropdown">
+                        <button class="btn btn-primary dropdown-toggle" type="button" id="videoDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+                            Select a Video for Beam  introduction
+                        </button>
+                        <ul class="dropdown-menu" aria-labelledby="videoDropdown">
+                            <li><a class="dropdown-item" href="#" onclick="playVideo('q1TowzIEYg0?si=-qVWhTWhPhDEcma0')">Introduction 1</a></li>
+                            <li><a class="dropdown-item" href="#" onclick="playVideo('sHjYoyJ2QAE?si=C1OkjG6E4aShlGZI')">Introduction 2</a></li>
+                        </ul>
+                    </div>           
+                </div>
+  
+              </div>
+    
+            </div>
+          </div>
+
+    </div>
+    <!-- Home Section End -->
+
+    <section class="packages" id="packages">
+        <div class="container">
+          
+          <div class="main-txt">
+            <h1><span>R</span>andom Videos</h1>
+          </div>
+  
+          <div class="row" style="margin-top: 30px;">
+  
+            <div class="col-md-4 py-3 py-md-0">
+              <div class="card">
+                    <div class="card-body">
+                        <iframe class="youtubePlayer"
+                            id="youtubePlayer"
+                            src="https://www.youtube.com/embed/Qyl1phEluW4?si=wMuMg7HG-SO8oEs9" 
+                            title="YouTube video player" 
+                            frameborder="0" 
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                            referrerpolicy="strict-origin-when-cross-origin" 
+                            allowfullscreen>
+                        </iframe>
+                        <h3>Sample Beam Design Work</h3>
+                    </div>
+                </div>
+            </div>
+  
+  
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="./assets/images/RecCol.PNG" alt="">
+                <div class="card-body">
+                    <iframe class="youtubePlayer"
+                        id="youtubePlayer"
+                        src="https://www.youtube.com/embed/sBIP3fvSJFE?si=3zbO2Qu1_6uKp8y5" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                  <h3>Beam Feature, Group Design</h3>
+                  <!--<p>The program designs Rectangular columns by calculating capacities based on user inputs.</p> -->
+                 </div>
+              </div>
+            </div>
+  
+            <div class="col-md-4 py-3 py-md-0">
+  
+              <div class="card">
+                <img src="./assets/images/CirCol.PNG" alt="">
+                <div class="card-body">
+                    <iframe class="youtubePlayer"
+                        id="youtubePlayer"
+                        src="https://www.youtube.com/embed/yIZeDKoplbI?si=jwstq-Xo8umCuHYB" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
+                    </iframe>
+                  <h3>FrameCe Beam Random Tutorial 1</h3>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+  
+  
+  
+      </section>
+
+    <!-- Section Gallary Start -->
+        <section class="report" id="report">
+            <div class="container">
+      
+                <div class="main-txt">
+                    <h1><span>R</span>eport Samples</h1>
+                </div>
+      
+                <div class="row" style="margin-top: 30px;">
+
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="modal fade" id="imageModal" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center">
+                                        <img src="/assets/images/Beam Sample.png" alt="Beam Sample" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModal">
+                            <img src="/assets/images/Beam Sample.png" alt="Summary Calculation" height="430px">
+                        </div>
+                        <p class="text-center"><strong>Summary Calculation</strong></p>
+                    </div>
+                    
+                    <div class="col-md-3 py-3 py-md-0">
+                        <div class="modal fade" id="imageModal2" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center">
+                                        <img src="/assets/images/Beam Shear Torsion Result.png" alt="Beam Sample" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModal2">
+                            <img src="/assets/images/Beam Shear Torsion Result.png" alt="" height="430px">
+                        </div>
+                        <p class="text-center"><strong>Shear Torsion Calculation</strong></p>
+                    </div>
+
+                    <div class="col-md-3 py-3 py-md-0">
+
+                        <div class="modal fade" id="imageModal3" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center">
+                                        <img src="/assets/images/Beam Crack Width Check.png" alt="Beam Sample" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModal3">
+                            <img src="/assets/images/Beam Crack Width Check.png" alt="" height="430px">
+                        </div>
+                        <p class="text-center"><strong>Crack and Deflection Calculation</strong></p>
+                    </div>
+
+                    <div class="col-md-3 py-3 py-md-0">
+
+                        <div class="modal fade" id="imageModal4" tabindex="-1" aria-hidden="true">
+                            <div class="modal-dialog modal-dialog-centered">
+                                <div class="modal-content">
+                                    <div class="modal-body text-center">
+                                        <img src="/assets/images/Beam Code Limits.png" alt="Beam Sample" class="img-fluid">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card" data-bs-toggle="modal" data-bs-target="#imageModal4">
+                            <img src="/assets/images/Beam Code Limits.png" alt="" height="430px">
+                        </div>
+                        <p class="text-center"><strong>Code Limits Calculation</strong></p>
+                    </div>
+
+
+                </div>
+      
+
+
+  
+
+            </div>
+        </section>
+    <!-- Section Gallary End -->
+
+    
+    <!-- Footer Start -->
+        <footer id="footer">
+            <h1><span>Struc</span>Ex Program</h1>  
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Temporibus fugiat, ipsa quos nulla qui alias.</p>
+
+            <div class="social-links">
+              <i class="fa-brands fa-twitter"></i>
+              <i class="fa-brands fa-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-youtube"></i>
+              <i class="fa-brands fa-pinterest-p"></i>
+            </div>
+  
+            <div class="copyright">
+              <p>&copy;Copyright CDEngineering Services. All Rights Reserved</p>
+            </div>
+
+        </footer>
+
+    <!-- Footer End -->
+
+
+      <script  src= "/assets/function.js"></script>       
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+</body>
+</html>
