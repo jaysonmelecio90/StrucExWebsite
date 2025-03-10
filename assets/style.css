@@ -67,6 +67,49 @@ body
     border: none;
 }
 
+#videoDropdown {
+    background-color: #037244 !important;
+    color: white;
+    border: 1px solid #ccc;
+}
+
+.equal-width-btn {
+    width: 100%; /* Make all buttons full width */
+    min-width: 180px; /* Ensure they have a minimum width */
+    text-align: center; /* Keep text centered */
+}
+
+.social-icons {
+    display: flex;
+    gap: 10px;
+}
+.social-icons a {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.social-icons img {
+    width: 24px;
+    height: 24px;
+    filter: invert(1); /* Makes the icons white */
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* Home Section Start */
