@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\assets",
+    "\\html"
   ],
-  "SelectedNode": "\\BeamTutorial.html",
+  "SelectedNode": "\\html\\Tutorial_Beam.html",
   "PreviewInSolutionExplorer": false
 }
