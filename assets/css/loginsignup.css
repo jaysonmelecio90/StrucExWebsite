@@ -1,0 +1,16 @@
+body {
+    background-color: hsla(120, 1%, 67%, 0.445); /* Green with 50% opacity */
+}
+
+.image-container {
+    background-color: #91d1b5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem; 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.tab-content {
+    padding: 1rem; /* Added padding to tab-content */
+}
